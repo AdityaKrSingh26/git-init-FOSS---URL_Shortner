@@ -22,33 +22,37 @@ Here're some of the project's best features:
 
 <h2>🛠️ Installation Steps:</h2>
 
-<p>1. Clone Frontend</p>
+<p>1. Fork Repo</p>
+
+<p>2. Clone Repo</p>
 
 ```
-git clone https://github.com/AdityaKrSingh26/URL_Shortner
-```
-
-<p>2. Clone Backend</p>
-
-```
-https://github.com/AdityaKrSingh26/URL-Shortner-backend
+git clone https://github.com/<username>/git-init-FOSS---Bulk_Mailer
 ```
 
 <p>3. Install node modules</p>
 
 ```
+cd client
+npm install
+
+cd ..
+
+cd server
 npm install
 ```
 
 <p>4. Start Frontend</p>
 
 ```
+cd client
 npm run dev
 ```
 
 <p>5. Start Backend</p>
 
 ```
+cd server
 npm start
 ```
 
