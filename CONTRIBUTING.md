@@ -1,7 +1,3 @@
-Here's the updated `CONTRIBUTING.md` file, now with detailed commit message rules:
-
----
-
 # Contributing to URL Shortener
 
 Thank you for considering contributing to the project! We are excited to welcome your ideas and improvements. This guide will help you get started with your contributions.
