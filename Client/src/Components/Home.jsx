@@ -4,6 +4,7 @@ import copyIcon from '../Assets/copy.svg';
 import toast from 'react-hot-toast';
 import axios from 'axios';
 import "./Global.css"
+import ThemeToggleButton from './ThemeToggleButton';
 
 function Home() {
   const [longUrl, setLongUrl] = useState('');
@@ -69,6 +70,7 @@ function Home() {
 
   return (
     <div>
+      <ThemeToggleButton />
       <div className="home-wrapper">
         <div className="heading-text">
           <h1>Short links, Magical results</h1>
