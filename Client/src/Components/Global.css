@@ -82,13 +82,23 @@
 
 
 
-
-
-
-
-
-
-
+.toggle-button {
+    position: fixed; 
+    top: 0;         
+    left: 0;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #f0f2de;
+    font-size: 20px;
+    font-weight: 700;
+    border:none;
+  }
+  
+  .toggle-button:hover {
+    border: 2px solid black;
+    cursor: pointer;
+  }
 
 
 #customers {
@@ -117,4 +127,62 @@
     text-align: left;
     background-color: #04AA6D;
     color: white;
+}
+
+
+.dark-mode .home-wrapper {
+    color: #f0f0f0;
+}
+
+.dark-mode .heading-text h1 {
+    color: #e0e0e0;
+}
+
+.dark-mode .heading-text h3 {
+    color: #e0e0e0;
+}
+
+.dark-mode .input-wrapper {
+    background-color: #222; 
+}
+
+.dark-mode .input,
+.dark-mode .short-url {
+    background-color: #333; 
+    color: #e0e0e0;
+}
+
+.dark-mode .submit-btn {
+    background-color: #434343; 
+    color: white;
+}
+
+.dark-mode .submit-btn:hover {
+    border: 2px solid #fff;
+}
+
+.dark-mode .copy-btn img {
+    filter: invert(1); 
+}
+
+.dark-mode .toggle-button {
+    background-color: #434343; 
+    color: white;
+}
+
+.dark-mode .toggle-button:hover {
+    border: 2px solid white;
+}
+
+.dark-mode #customers th {
+    background-color: #03855c; 
+    color: white;
+}
+
+.dark-mode #customers tr:nth-child(even) {
+    background-color: #333; 
+}
+
+.dark-mode #customers tr:hover {
+    background-color: #444; 
 }

@@ -17,3 +17,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #1f1f1f; 
+}
+
+.dark-mode::before {
+  content: ''; 
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  background-image: url("bg.svg"); 
+  background-size: cover; 
+  filter: invert(1);
+  z-index: -1;
+}
